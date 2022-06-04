@@ -15,6 +15,8 @@
         <module>guns-generator</module>
         <module>guns-gateway</module>
         <module>guns-api</module>
+        <module>guns-user</module>
+
     </modules>
 
     <parent>
@@ -58,6 +60,12 @@
                 <artifactId>guns-core</artifactId>
                 <version>${guns.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.stylefeng</groupId>
+                <artifactId>guns-api</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -194,16 +202,16 @@
             </plugins>
         </pluginManagement>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <configuration>
-                    <delimiters>
-                        <delimiter>@</delimiter>
-                    </delimiters>
-                    <useDefaultDelimiters>false</useDefaultDelimiters>
-                </configuration>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-resources-plugin</artifactId>-->
+<!--                <configuration>-->
+<!--                    <delimiters>-->
+<!--                        <delimiter>@</delimiter>-->
+<!--                    </delimiters>-->
+<!--                    <useDefaultDelimiters>false</useDefaultDelimiters>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
         </plugins>
         <resources>
             <resource>
