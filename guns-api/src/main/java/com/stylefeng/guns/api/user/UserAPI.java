@@ -1,4 +1,4 @@
-package com.stylefeng.guns.rest.modular.user;
+package com.stylefeng.guns.api.user;
 
 public interface UserAPI {
     public boolean login(String username,String password);

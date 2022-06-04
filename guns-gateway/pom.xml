@@ -19,6 +19,19 @@
     </parent>
 
     <dependencies>
+
+    <!--        对于子包的依赖-->
+        <dependency>
+            <groupId>com.stylefeng</groupId>
+            <artifactId>guns-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.stylefeng</groupId>
+            <artifactId>guns-api</artifactId>
+        </dependency>
+
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -44,14 +57,17 @@
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.stylefeng</groupId>
-            <artifactId>guns-core</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.stylefeng</groupId>-->
+<!--            <artifactId>guns-api</artifactId>-->
+<!--            <version>1.0.0</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
