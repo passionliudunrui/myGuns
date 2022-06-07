@@ -31,6 +31,12 @@
             <artifactId>guns-api</artifactId>
         </dependency>
 
+<!--        <dependency>-->
+<!--            <groupId>com.stylefeng.guns</groupId>-->
+<!--            <artifactId>guns-gateway</artifactId>-->
+<!--            <version>0.0.1</version>-->
+<!--        </dependency>-->
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -63,6 +69,12 @@
             <artifactId>lombok</artifactId>
         </dependency>
 <!--        <dependency>-->
+<!--            <groupId>com.stylefeng.guns</groupId>-->
+<!--            <artifactId>guns-gateway</artifactId>-->
+<!--            <version>0.0.1</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
+        <!--        <dependency>-->
 <!--            <groupId>com.stylefeng</groupId>-->
 <!--            <artifactId>guns-api</artifactId>-->
 <!--            <version>1.0.0</version>-->

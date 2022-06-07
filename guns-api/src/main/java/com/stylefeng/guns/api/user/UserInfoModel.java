@@ -1,6 +1,12 @@
 package com.stylefeng.guns.api.user;
 
-public class UserInfoModel {
+import java.io.Serializable;
+
+/**
+ * 跨越很多模块的信息
+ *
+ */
+public class UserInfoModel implements Serializable {
 
     private Integer uuid;
     private String username;

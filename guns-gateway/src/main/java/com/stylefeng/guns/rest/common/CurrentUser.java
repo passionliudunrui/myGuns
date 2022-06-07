@@ -5,14 +5,14 @@ import com.stylefeng.guns.api.user.UserInfoModel;
 public class CurrentUser {
 
     //线程绑定的存储空间
-    private static final ThreadLocal<UserInfoModel> threadLocal=new ThreadLocal<>();
+    private static final ThreadLocal<String> threadLocal=new ThreadLocal<>();
 
-    public static void saveUserInfo(UserInfoModel userInfoModel){
-        threadLocal.set(userInfoModel);
+    public static void saveUserInfo(String userId){
+        threadLocal.set(userId);
 
     }
 
-    public static UserInfoModel getCurrentUser(){
+    public static String getCurrentUser(){
         return threadLocal.get();
     }
 

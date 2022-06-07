@@ -2,6 +2,10 @@ package com.stylefeng.guns.api.user;
 
 import java.io.Serializable;
 
+/**
+ * 跨越模块传输的数据
+ * 和注册相关的信息
+ */
 public class UserModel implements Serializable {
 
     private String username;
