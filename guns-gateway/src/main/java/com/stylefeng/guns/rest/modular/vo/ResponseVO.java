@@ -18,6 +18,8 @@ public class ResponseVO<M>{
 
         return responseVO;
     }
+
+
     public static<M> ResponseVO success(String message){
         ResponseVO responseVO=new ResponseVO();
         responseVO.setStatus(0);

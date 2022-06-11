@@ -18,7 +18,4 @@ public interface UserAPI {
 
     UserInfoModel updateUserInfo(UserInfoModel userInfoModel);
 
-
-
-
 }

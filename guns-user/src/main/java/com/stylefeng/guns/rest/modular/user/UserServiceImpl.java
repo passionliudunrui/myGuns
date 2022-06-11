@@ -14,10 +14,12 @@ import org.springframework.stereotype.Component;
 
 /**
  * 在微服务的时候
+ * 负载均衡的时候 使用了loadbalance ="roundrobin" 来实现这个功能 这个是轮询
+ * @Service 中的参数 interface是UserAPI.class 就是注册时候的名称
  */
 //直接将服务暴露出去
 @Component
-@Service(interfaceClass = UserAPI.class)
+@Service(interfaceClass = UserAPI.class, loadbalance = "roundrobin")
 @SuppressWarnings("all")
 public class UserServiceImpl implements UserAPI{
 

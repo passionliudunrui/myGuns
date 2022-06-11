@@ -18,10 +18,10 @@ import javax.annotation.Resource;
 
 /**
  * 请求验证的
- *
  * @author fengshuonan
  * @Date 2017/8/24 14:22
  */
+
 @RestController
 public class AuthController {
 
@@ -31,8 +31,9 @@ public class AuthController {
 /*    @Resource(name = "simpleValidator")
     private IReqValidator reqValidator;*/
 
+    //使用了check可以启动时候不进行检测  没有依赖的时候也可以启动
+    @Reference(interfaceClass = UserAPI.class,check = false)
 
-    @Reference(interfaceClass = UserAPI.class)
     private UserAPI userAPI;
 
 
