@@ -1,5 +1,9 @@
 package com.stylefeng.guns.rest.modular.vo;
 
+import lombok.Data;
+
+@Data
+
 public class ResponseVO<M>{
 
     private int status;
@@ -8,8 +12,23 @@ public class ResponseVO<M>{
     //返回数据实体
     private M date;
 
+    //图片前缀
+    private String imgPre;
+
+
     private ResponseVO(){
     }
+
+    public static<M> ResponseVO success(String imgPre,M m){
+        ResponseVO responseVO=new ResponseVO();
+        responseVO.setStatus(0);
+        responseVO.setDate(m);
+        responseVO.setImgPre(imgPre);
+
+        return responseVO;
+    }
+
+
 
     public static<M> ResponseVO success(M m){
         ResponseVO responseVO=new ResponseVO();

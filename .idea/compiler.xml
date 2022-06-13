@@ -12,6 +12,7 @@
         <module name="guns-rest" />
         <module name="guns-admin" />
         <module name="guns-user" />
+        <module name="guns-film" />
         <module name="guns-generator" />
         <module name="guns-core" />
       </profile>
@@ -22,6 +23,7 @@
       <module name="guns-admin" options="-parameters" />
       <module name="guns-api" options="-parameters" />
       <module name="guns-core" options="-parameters" />
+      <module name="guns-film" options="-parameters" />
       <module name="guns-gateway" options="-parameters" />
       <module name="guns-generator" options="-parameters" />
       <module name="guns-rest" options="-parameters" />

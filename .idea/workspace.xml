@@ -5,14 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f953bb1a-2fad-4dd5-87d8-ca651132aed3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guns-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/user/UserAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/user/UserAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/user/UserInfoModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/user/UserModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-api/target/classes/com/stylefeng/guns/api/user/UserAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/guns-api/target/classes/com/stylefeng/guns/api/user/UserAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-api/target/classes/com/stylefeng/guns/api/user/UserInfoModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-api/target/classes/com/stylefeng/guns/api/user/UserModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guns-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/common/CurrentUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/common/CurrentUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/user/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/vo/ResponseVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/vo/ResponseVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/guns-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/guns-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-gateway/target/classes/com/stylefeng/guns/rest/common/CurrentUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/guns-gateway/target/classes/com/stylefeng/guns/rest/common/CurrentUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-gateway/target/classes/com/stylefeng/guns/rest/modular/user/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/guns-gateway/target/classes/com/stylefeng/guns/rest/modular/user/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-gateway/target/classes/com/stylefeng/guns/rest/modular/vo/ResponseVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/guns-gateway/target/classes/com/stylefeng/guns/rest/modular/vo/ResponseVO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guns-rest.log" beforeDir="false" afterPath="$PROJECT_DIR$/guns-rest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns-rest.log.2022-06-07.0.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/guns-user/src/main/java/com/stylefeng/guns/rest/modular/user/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns-user/src/main/java/com/stylefeng/guns/rest/modular/user/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/guns-user/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/mapping" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.12165451" />
     <property name="project.structure.side.proportion" value="0.11074197" />
@@ -64,11 +80,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyJavaPath\Dubbo猫眼\MyGuns\Guns1\guns\guns-user\src\main\java\com\stylefeng\guns\rest\common\persistence\dao\mapping" />
+      <recent name="D:\MyJavaPath\Dubbo猫眼\MyGuns\Guns1\guns\guns-api\src\main\java\com\stylefeng\guns\api\film\vo" />
+      <recent name="D:\MyJavaPath\Dubbo猫眼\MyGuns\Guns1\guns\guns-api\src\main\java\com\stylefeng\guns\api\user\vo" />
+      <recent name="D:\MyJavaPath\Dubbo猫眼\MyGuns\Guns1\guns\guns-api\src\main\java\com\stylefeng\guns\api\film" />
       <recent name="D:\MyJavaPath\Dubbo猫眼\MyGuns\Guns1\guns" />
-      <recent name="D:\MyJavaPath\Dubbo猫眼\MyGuns\Guns1\guns\guns-user\src\main\java\com\stylefeng\guns\rest" />
+      <recent name="D:\MyJavaPath\Dubbo猫眼\MyGuns\Guns1\guns\guns-user\src\main\java\com\stylefeng\guns\rest\common\persistence\dao\mapping" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.stylefeng.guns.rest.modular.film.vo" />
+      <recent name="com.stylefeng.guns.api.film.vo" />
       <recent name="com.stylefeng.guns.rest.modular.user" />
       <recent name="com.stylefeng.guns.api.user" />
     </key>
@@ -80,22 +100,24 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication">
-    <configuration name="GunsRestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stylefeng.guns.rest.GunsRestApplication" />
-      <module name="guns-user" />
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration name="EntityGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guns-film" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stylefeng.guns.rest.*" />
+          <option name="PATTERN" value="com.stylefeng.guns.generator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.stylefeng.guns.generator" />
+      <option name="MAIN_CLASS_NAME" value="com.stylefeng.guns.generator.EntityGenerator" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EntityGenerator.entityGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guns-user" />
+    <configuration name="EntityGenerator.entityGenerator (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guns-film" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.stylefeng.guns.generator.*" />
@@ -106,6 +128,19 @@
       <option name="MAIN_CLASS_NAME" value="com.stylefeng.guns.generator.EntityGenerator" />
       <option name="METHOD_NAME" value="entityGenerator" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="guns-film" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stylefeng.guns.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stylefeng.guns.rest.FilmApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,8 +186,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="guns-user" />
+    <configuration name="UserApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="guns-film" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.stylefeng.guns.rest.*" />
@@ -166,10 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="JUnit.EntityGenerator.entityGenerator" />
-        <item itemvalue="Application.GunsRestApplication" />
+        <item itemvalue="Spring Boot.FilmApplication" />
+        <item itemvalue="JUnit.EntityGenerator.entityGenerator (1)" />
+        <item itemvalue="Spring Boot.UserApplication (1)" />
+        <item itemvalue="JUnit.EntityGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +226,9 @@
       <workItem from="1654476689005" duration="6371000" />
       <workItem from="1654596381242" duration="7938000" />
       <workItem from="1654862392955" duration="5024000" />
+      <workItem from="1654911886086" duration="3619000" />
+      <workItem from="1654935241978" duration="12295000" />
+      <workItem from="1654995690366" duration="8658000" />
     </task>
     <servers />
   </component>
